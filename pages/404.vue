@@ -3,3 +3,14 @@
         404
     </h1>
 </template>
+
+
+<script>
+export default {
+  setup () {
+    useMeta({
+      title: "404 - Not Found" 
+    })
+  }
+}
+</script>

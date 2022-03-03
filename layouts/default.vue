@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen container mx-auto bg-gray-100 dark:bg-gray-800 transition-colors">
+    <div class="container mx-auto">
         <SelectTheme/>
         <slot/>
     </div>
