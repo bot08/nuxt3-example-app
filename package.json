@@ -10,6 +10,7 @@
     "nuxt3": "^3.0.0-27437402.494f85a"
   },
   "dependencies": {
+    "@heroicons/vue": "^1.0.6",
     "@nuxtjs/color-mode": "^3.0.1"
   }
 }
