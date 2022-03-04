@@ -9,7 +9,10 @@
 export default {
   setup () {
     useMeta({
-      title: "404 - Not Found" 
+      title: "404 - Not Found",
+      meta: [
+        { name: 'description', content: '404 page' }
+      ]
     })
   }
 }

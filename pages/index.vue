@@ -21,7 +21,10 @@ export default {
 
   setup () {
     useMeta({
-      title: "nuxt3 app" 
+      title: "nuxt3 app",
+      meta: [
+        { name: 'description', content: 'index page' }
+      ]
     })
   }
 }

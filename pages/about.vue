@@ -6,6 +6,10 @@
         <NuxtLink to="/" class="text-xl font-bold text-green-700 dark:text-green-200 my-2">
             To index
         </NuxtLink>
+        <br>
+        <a class="text-xl font-bold text-green-700 dark:text-green-200" rel="noreferrer" target="_blank" href="https://github.com/bot08/nuxt3-example-app">
+            Github
+        </a>
     </div>
 </template>
 
@@ -20,7 +24,10 @@ export default {
 
   setup () {
     useMeta({
-      title: "about" 
+      title: "about",
+      meta: [
+        { name: 'description', content: 'about page' }
+      ]
     })
   }
 }
