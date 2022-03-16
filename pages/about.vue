@@ -6,9 +6,9 @@
         <NuxtLink to="/" class="text-xl font-bold text-green-700 dark:text-green-200">
             To index
         </NuxtLink>
-        <a class="block text-xl font-bold text-green-700 dark:text-green-200 my-2" rel="noreferrer" target="_blank" href="https://github.com/bot08/nuxt3-example-app">
+        <NuxtLink target="_blank" to="https://github.com/bot08/nuxt3-example-app" class="block text-xl font-bold text-green-700 dark:text-green-200 my-2">
             Github
-        </a>
+        </NuxtLink>
     </div>
 </template>
 
@@ -19,5 +19,8 @@ useMeta({
   meta: [
     { name: 'description', content: 'about page' }
   ]
+})
+definePageMeta({
+  keepalive: true
 })
 </script>

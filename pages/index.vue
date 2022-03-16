@@ -27,7 +27,6 @@ useMeta({
 })
 definePageMeta({
   keepalive: true
-  //title: 'My home page'  // Doesn't work
 })
 
 const count = ref(0)
