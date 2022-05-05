@@ -1,5 +1,5 @@
 <template>
-  <div class="vue-load-image">
+  <div>
     <slot v-if="status === 'loaded'" name="image" />
     <slot v-else-if="status === 'failed'" name="error" />
     <slot v-else-if="status === 'loading'" name="preloader" />
@@ -38,7 +38,7 @@ export default {
         } else {
           this.status = Status.PENDING
         }
-    }else{
+    } else {
       this.status = Status.LOADING
     }
   },
