@@ -19,7 +19,7 @@
 <script setup>
 import { StarIcon } from '@heroicons/vue/solid'
 
-useMeta({
+useHead({
   title: "nuxt3 app",
   meta: [
     { name: 'description', content: 'index page' }

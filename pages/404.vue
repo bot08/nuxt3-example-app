@@ -11,7 +11,7 @@
 
 
 <script setup>
-useMeta({
+useHead({
   title: "404 - Not Found",
   meta: [
     { name: 'description', content: '404 page' }

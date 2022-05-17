@@ -28,7 +28,7 @@
 
 
 <script setup>
-useMeta({
+useHead({
   title: "about",
   meta: [
     { name: 'description', content: 'about page' }
