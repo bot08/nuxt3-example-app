@@ -6,7 +6,7 @@
 
 
 <script setup>
-useMeta({
+useHead({
   htmlAttrs: {
     lang: 'en'
   },
