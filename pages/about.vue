@@ -34,7 +34,4 @@ useHead({
     { name: 'description', content: 'about page' }
   ]
 })
-definePageMeta({
-  keepalive: true
-})
 </script>

@@ -25,6 +25,9 @@ export default {
     }
   },
   created() {
+    //console.log(this.$route);
+    //console.log(this.$router);
+    // TODO: distinguish between first page load and router
     if(process.client){
         const imageElement = this.getImgElementFromImageSlot()
         if (imageElement == null) {
@@ -61,7 +64,7 @@ export default {
   watch: {
     src(value) {
       this.status = value ? Status.LOADING : Status.PENDING
-    },
+    }
   },
   methods: {
     createLoader() {

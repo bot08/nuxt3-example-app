@@ -6,6 +6,8 @@
 
 
 <script setup>
+// const color = ref(useColorMode().value);
+
 useHead({
   htmlAttrs: {
     lang: 'en'
@@ -14,7 +16,7 @@ useHead({
     class: 'min-h-screen bg-gray-100 dark:bg-gray-800 transition-colors'
   },
   // meta: [
-  //   { name: 'theme-color', content: '#fff' }
+  //   { name: 'theme-color', content: (useColorMode().value == 'light' ? 'light' : 'dark') }
   // ],
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
