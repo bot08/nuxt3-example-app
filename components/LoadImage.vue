@@ -28,6 +28,7 @@ export default {
     //console.log(this.$route);
     //console.log(this.$router);
     // TODO: distinguish between first page load and router
+    // console.log(this.$router.options.history.state.back);
     if(process.client){
         const imageElement = this.getImgElementFromImageSlot()
         if (imageElement == null) {

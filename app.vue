@@ -22,4 +22,9 @@ useHead({
     { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
   ]
 })
+
+// watch(() => $route, (to, from) => {
+//   const fromPage = () => useState(from.name);
+//   alert(fromPage);
+// });
 </script>
