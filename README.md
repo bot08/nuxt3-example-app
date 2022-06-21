@@ -29,13 +29,13 @@ yarn build
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
 
 ## TODO
-✅ good architecture
-✅ tailwindcss module
-✅ theme module
-✅ heroicons
-✅ store example
-✅ custom font
-🚧 custom image component
-❌ get previous route
-❌ data fetching example
-❌ smart Prefetching (RP [#4329](https://github.com/nuxt/framework/pull/4329))
+✅ good architecture\
+✅ tailwindcss module\
+✅ theme module\
+✅ heroicons\
+✅ store example\
+✅ custom font\
+🚧 custom image component\
+❌ get previous route\
+❌ data fetching example\
+❌ smart Prefetching (RP [#4329](https://github.com/nuxt/framework/pull/4329))\
