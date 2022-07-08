@@ -37,5 +37,5 @@ Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
 ✅ custom font\
 🚧 custom image component  (? RP [#5688](https://github.com/nuxt/framework/pull/5688))\
 ❌ get previous route\
-❌ data fetching example\
+🚧 data fetching example\
 ❌ smart Prefetching (RP [#4329](https://github.com/nuxt/framework/pull/4329))
