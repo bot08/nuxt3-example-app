@@ -7,7 +7,7 @@
 
     <div v-else>
       <div v-for="item in characters" :key="item.name" class="text-gray-900 dark:text-gray-100">   
-        {{ item.name }} {{ item.rarity }} <StarIcon class="h-5 w-5 inline"/>
+        {{ item.name }} {{ item.rarity }} <!-- <StarIcon class="h-5 w-5 inline"/> -->
       </div>
     </div>
 
@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import { StarIcon } from '@heroicons/vue/solid'
+//import { StarIcon } from '@heroicons/vue/solid'
 
 const { pending, data: characters } = useLazyFetch('https://api-genshin.herokuapp.com/api/characters')
 
