@@ -6,8 +6,8 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^5.3.2",
-    "nuxt": "^3.0.0-rc.8"
+    "@nuxtjs/tailwindcss": "^5.3.3",
+    "nuxt": "^3.0.0-rc.9"
   },
   "dependencies": {
     "@heroicons/vue": "^1.0.6",
