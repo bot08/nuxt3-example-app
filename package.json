@@ -7,10 +7,10 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.3.3",
-    "nuxt": "^3.0.0-rc.9"
+    "nuxt": "^3.0.0-rc.10"
   },
   "dependencies": {
     "@heroicons/vue": "^1.0.6",
-    "@nuxtjs/color-mode": "^3.1.4"
+    "@nuxtjs/color-mode": "^3.1.5"
   }
 }
