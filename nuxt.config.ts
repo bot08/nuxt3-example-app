@@ -1,19 +1,23 @@
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
-    modules: [
-        '@nuxtjs/color-mode',
-        '@nuxtjs/tailwindcss'
-      ],
+  modules: [
+    '@nuxtjs/color-mode',
+    '@nuxtjs/tailwindcss'
+  ],
 
-    tailwindcss: {
-        exposeConfig: true
-      },
+  tailwindcss: {
+    exposeConfig: true
+  },
 
-    colorMode: {
-        classSuffix: ''
-      },
+  colorMode: {
+    classSuffix: ''
+  },
+  
+  build: {
+    transpile: ['@heroicons/vue']
+  },
 
-    css: [
-        '~/assets/css/style.css'
-      ]
+  css: [
+    '~/assets/css/style.css'
+  ]
 })
