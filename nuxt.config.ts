@@ -19,5 +19,14 @@ export default defineNuxtConfig({
 
   css: [
     '~/assets/css/style.css'
-  ]
+  ],
+
+  // https://github.com/nuxt/framework/discussions/515
+  // routes: {
+  //   '/': { prerender: true }, // Once per build (via builder)
+  //   '/blog/*': { static: true }, // Once on-demand per build (via lambda)
+  //   '/stats/*': { swr: '10 min' }, // Once on-demand each 10 minutes (via lambda)
+  //   '/admin/*': { ssr: false }, // Client-Side rendered
+  //   '/react/*': { redirect: '/vue' }, // Redirect Rules
+  // }
 })
