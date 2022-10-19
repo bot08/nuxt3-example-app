@@ -6,11 +6,11 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^5.3.3",
-    "nuxt": "^3.0.0-rc.11"
+    "@nuxtjs/tailwindcss": "^6.0.0",
+    "nuxt": "^3.0.0-rc.12"
   },
   "dependencies": {
     "@heroicons/vue": "^1.0.6",
-    "@nuxtjs/color-mode": "^3.1.6"
+    "@nuxtjs/color-mode": "^3.1.8"
   }
 }
