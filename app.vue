@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout>
-    <NuxtPage keepalive/>
+    <NuxtPage :keepalive="{ exclude: 'index', max: '2' }"/>
   </NuxtLayout>
 </template>
 
