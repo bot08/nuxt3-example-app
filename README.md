@@ -38,4 +38,4 @@ Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
 ✅ data fetching example\
 ✅ smart Prefetching (RP [#4329](https://github.com/nuxt/framework/pull/4329))\
 🚧 custom image component  (? RP [#5688](https://github.com/nuxt/framework/pull/5688))\
-❌ ssg & ssr & ssr cache
+✅ ssg & ssr & ssr cache
