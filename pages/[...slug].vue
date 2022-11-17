@@ -11,6 +11,8 @@
 
 
 <script setup>
+setResponseStatus(404)
+
 useHead({
   title: "404 - Not Found",
   meta: [
